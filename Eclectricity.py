@@ -107,8 +107,9 @@ class Window(QtWidgets.QMainWindow, Ui_MainWindow):
         self.setupUi(self)
 
     def update_graph(self):
+        pass
 #        x =
-        self.graphics(x, y)
+#        self.graphics(x, y)
 
 
     def graphics(self, x_data, y_data):
@@ -124,6 +125,7 @@ class Window(QtWidgets.QMainWindow, Ui_MainWindow):
         padding = 40
 
 
+print(-1 - 5)
 
 if __name__ == "__main__":
     import sys
